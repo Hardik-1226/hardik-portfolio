@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hardik Varshney's Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
@@ -94,3 +95,6 @@ Hardik Varshney
 - Email: your.email@example.com
 - LinkedIn: [Your LinkedIn Profile]
 - GitHub: [Your GitHub Profile]
+=======
+# NewPortfolio
+>>>>>>> 13f553b8edcaa602bc7b9352ec0e1e9f101d798b
