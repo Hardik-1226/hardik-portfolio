@@ -28,7 +28,7 @@ export default function SimpleMusicToggle() {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 bg-gray-900 text-white p-3 rounded-full shadow-lg flex items-center justify-center">
+    <div className="fixed bottom-4 left-4 z-50 bg-gray-900 text-white p-3 rounded-full shadow-lg flex items-center justify-center">
       <button
         onClick={toggleMusic}
         className="text-xl hover:text-blue-400 transition-colors"
@@ -38,8 +38,9 @@ export default function SimpleMusicToggle() {
 
       <audio
         ref={audioRef}
-        src="/Gangsta's Paradise-BarmanMusic.Com.mp3"
         autoPlay
+        src="/Gangsta's Paradise-BarmanMusic (mp3cut.net).mp3"
+        
         loop
       />
     </div>
