@@ -60,6 +60,26 @@ const QAPairs = [
     a: "My name is Hardik Varshney. I'm a B.Tech student specializing in AI and ML at GL Bajaj Institute of Management and Technology. I'm passionate about building intelligent systems that combine hardware and software to solve real-world problems. I've worked on projects like a gesture-controlled cursor system and have participated in various hackathons, including winning the IIIT Delhi National Hackathon."
   },
   {
+    q: ["gender", "are you male", "are you female", "what is your gender", "are you a boy", "are you a girl"],
+    a: "I am male."
+  },
+  {
+    q: ["location", "where do you live", "your city", "your state", "your address", "where are you from"],
+    a: "I am from Greater Noida, Uttar Pradesh, India."
+  },
+  {
+    q: ["nationality", "are you indian", "what is your nationality", "where are you from"],
+    a: "I am Indian."
+  },
+  {
+    q: ["language", "what languages do you speak", "do you know hindi", "do you know english"],
+    a: "I am fluent in English and Hindi."
+  },
+  {
+    q: ["age", "how old", "your age"],
+    a: "I am 20 years old."
+  },
+  {
     q: ["education", "studies", "academic", "college", "where do you study", "institute", "university", "school", "qualification"],
     a: "I'm currently pursuing B.Tech in Computer Science with a specialization in Artificial Intelligence and Machine Learning at GL Bajaj Institute of Management and Technology. I'm in my 2nd year. My academic journey includes scoring 90% in Class 10th, 86% in Class 12th (PCM), and securing 90+ percentile in JEE Mains."
   },
@@ -110,6 +130,22 @@ const QAPairs = [
   {
     q: ["quote", "motto", "philosophy", "belief", "saying"],
     a: "I'm passionate about blending hardware and software to build real-world tech that feels intuitive and futuristic. I believe in creating technology that enhances human capabilities and makes a positive impact on society."
+  },
+  {
+    q: ["smartphone", "phone", "device", "what phone do you use"],
+    a: "I use a good camera smartphone for content and project documentation."
+  },
+  {
+    q: ["team", "collaboration", "group work", "team projects"],
+    a: "Yes, I have worked on collaborative technical projects and participated in club activities that require team coordination. I enjoy working in teams as it helps in learning from others and developing better solutions."
+  },
+  {
+    q: ["learning", "what do you enjoy learning", "favorite subjects", "what do you study"],
+    a: "I enjoy exploring new technologies, especially in the fields of AI, ML, IoT, and how humans interact with machines. I'm constantly learning and expanding my knowledge in these areas."
+  },
+  {
+    q: ["future projects", "what will you build", "upcoming projects", "next project"],
+    a: "I'm interested in developing smart systems that improve day-to-day life, like AI-powered tools, gesture-based interfaces, and embedded IoT solutions. I'm always looking for new challenges and opportunities to create innovative solutions."
   }
 ];
 
