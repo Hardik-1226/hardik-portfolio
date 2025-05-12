@@ -38,7 +38,7 @@ export default function About() {
                   I'm a B.Tech student from GL Bajaj Institute of Technology and Management, deeply passionate about using technology to solve real-world problems. From winning national hackathons to building AI and IoT-based solutions, I actively seek innovation through code.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                  I'm currently exploring Web Development, AI/ML, IoT, Web3, and preparing for SSC CGL, ISRO, and DRDO. I enjoy public speaking, organizing events, and building things that matter.
+                  I'm currently exploring Web Development, AI/ML, IoT, Web3. I enjoy public speaking, organizing events, and building things that matter.
                 </p>
               </motion.div>
             </motion.div>
