@@ -27,7 +27,8 @@ export default function Hero() {
           >
             <div className="mb-6">
               <TypeAnimation
-                sequence={['Hi, I\'m Hardik Varshney👋', 2050]}
+                sequence={['Hi, 
+                           I\'m Hardik Varshney👋', 2050]}
                 wrapper="h1"
                 speed={25}
                 className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white glow-text"
