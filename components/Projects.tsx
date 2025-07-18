@@ -45,7 +45,7 @@ const projects: Project[] = [
     image: "/Screenshot 2025-05-12 222037.png",
     technologies: ["AI", "Career Mapping"],
     githubUrl: "https://github.com/hardikvarshney5/ai-career-mapping",
-    liveUrl: "#",
+    liveUrl: "https://hey-bro-ynbd-git-main-hardik-1226s-projects.vercel.app/",
     techStack: [
       { label: 'Hardware', items: ['ADXL345', 'Arduino Uno/Nano'] },
       { label: 'Languages & Tools', items: ['C/C++', 'Python', 'Arduino IDE'] },
