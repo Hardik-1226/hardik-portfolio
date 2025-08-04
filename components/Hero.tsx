@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaDownload } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Hero() {
@@ -75,7 +75,26 @@ export default function Hero() {
                 >
                   Contact Me
                 </a>
+
+                {/* 💼 Resume Buttons */}
+                <a
+                  href="/Hardik_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-accent-color-soft text-gray-800 dark:text-white px-6 py-3 rounded-lg font-semibold hover-effect"
+                >
+                  View Resume
+                </a>
+                <a
+                  href="/Hardik_Resume.pdf"
+                  download="Hardik_Varshney_Resume.pdf"
+                  className="bg-accent-color-soft text-gray-800 dark:text-white px-6 py-3 rounded-lg font-semibold hover-effect flex items-center"
+                >
+                  <FaDownload className="mr-2" />
+                  Download Resume
+                </a>
               </motion.div>
+
               <div className="flex flex-row items-center justify-center gap-6 mb-4">
                 <a
                   href="https://github.com/Hardik-1226"
@@ -117,6 +136,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
+          {/* Profile Image Flip Box */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -138,7 +158,7 @@ export default function Hero() {
                   className="w-full h-full"
                 >
                   {/* Front Side */}
-                  <div style={{ backfaceVisibility: 'hidden', position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
+                  <div style={{ backfaceVisibility: 'hidden', position: 'absolute', inset: 0 }}>
                     <img
                       src="/20250208_134325.jpg"
                       alt="Hardik Varshney"
@@ -146,10 +166,24 @@ export default function Hero() {
                     />
                   </div>
                   {/* Back Side */}
-                  <div style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', position: 'absolute', inset: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(34,255,255,0.12)' }}>
+                  <div
+                    style={{
+                      backfaceVisibility: 'hidden',
+                      transform: 'rotateY(180deg)',
+                      position: 'absolute',
+                      inset: 0,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      background: 'rgba(34,255,255,0.12)',
+                    }}
+                  >
                     <div className="flex flex-col items-center justify-center w-full h-full">
-                      <img src="/ChatGPT Image May 12, 2025, 09_45_34 PM.png" alt="Fun Side" className="w-2/3 h-2/3 object-cover rounded-full mb-4" />
-                      
+                      <img
+                        src="/ChatGPT Image May 12, 2025, 09_45_34 PM.png"
+                        alt="Fun Side"
+                        className="w-2/3 h-2/3 object-cover rounded-full mb-4"
+                      />
                     </div>
                   </div>
                 </motion.div>
