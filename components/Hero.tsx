@@ -53,7 +53,7 @@ export default function Hero() {
             </div>
 
             <motion.p
-              className="text-base md:text-lg mb-8 text-gray-600 dark:text-gray-300 max-w-xl"
+              className="text-base md:text-lg mb-8 text-gray-600 dark:text-gray-300 max-w-xl text-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
@@ -76,23 +76,25 @@ export default function Hero() {
                   Contact Me
                 </a>
 
-                {/* 💼 Resume Buttons */}
-                <a
-                  href="/Hardik_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-accent-color-soft text-gray-800 dark:text-white px-6 py-3 rounded-lg font-semibold hover-effect"
-                >
-                  View Resume
-                </a>
-                <a
-                  href="/Hardik_Resume.pdf"
-                  download="Hardik_Varshney_Resume.pdf"
-                  className="bg-accent-color-soft text-gray-800 dark:text-white px-6 py-3 rounded-lg font-semibold hover-effect flex items-center"
-                >
-                  <FaDownload className="mr-2" />
-                  Download Resume
-                </a>
+                {/* 💼 Compact Resume Buttons */}
+                <div className="flex gap-4 mt-2">
+                  <a
+                    href="/Hardik_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm px-4 py-2 bg-accent-color-soft text-gray-800 dark:text-white rounded-full font-medium shadow-md hover:scale-105 transition-transform"
+                  >
+                    Resume
+                  </a>
+                  <a
+                    href="/Hardik_Resume.pdf"
+                    download="Hardik_Varshney_Resume.pdf"
+                    className="text-sm px-4 py-2 bg-accent-color-soft text-gray-800 dark:text-white rounded-full font-medium shadow-md hover:scale-105 transition-transform flex items-center"
+                  >
+                    <FaDownload className="mr-1 text-xs" />
+                    Download
+                  </a>
+                </div>
               </motion.div>
 
               <div className="flex flex-row items-center justify-center gap-6 mb-4">
